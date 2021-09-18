@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background: #f5f8fa;
+  width: 100%;
+  height: 6.25rem;
+  display: flex;
+  justify-content: center;
+}
+.fotoEuro {
+  position: relative;
+
+  width: 100%;
+  height: 31.25rem;
+  background-image: url("assets/fotos/Europa2.svg");
+}
+.formataçãoTxt {
+  color: #f5f8fa;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 3.688rem;
+  left: 8.75rem;
+}
+.bio {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.center {
+  width: 72.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descEuro {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #47585b;
+  text-align: justify;
+}
+.caracteristicas {
+  display: flex;
+  gap: 7.875rem;
+  margin-left: 4.375rem;
+}
+.carac1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cima {
+  color: #ffba08;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.baixo {
+  color: #47585b;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.cidades100 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5rem;
+}
+.city {
+}
+.city2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.formtCity {
+  color: #47585b;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+.alinhar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  background: #fff;
+  border-radius: 4px 4px 0px 0px;
+  width: 16rem;
+  border: 1px solid rgba(255, 186, 8, 0.5);
+  height: 17.438rem;
+  margin: 2.5rem 0;
+}
+.fort1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #47585b;
+  margin-top: 1.125rem;
+}
+.fort2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #999999;
+  margin-top: 0.75rem;
+}
+@media screen and (max-width: 1024px) {
+  .formtCity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caracteristicas {
+    margin-top: 2rem;
+  }
+  .center {
+    flex-direction: column;
+  }
+  .city2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .descEuro {
+    padding: 0 2rem;
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo img {
+    width: 8.135rem;
+    height: 4.25rem;
+  }
+  .formtCity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fotoEuro {
+    height: 9.375rem;
+    background-image: url("assets/fotos/Europa2.svg");
+    background-size: cover;
+  }
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .caracteristicas {
+    display: grid;
+
+    margin-left: 0;
+    margin-top: 2rem;
+  }
+  .descEuro {
+    padding: 0 2rem;
+    font-size: 1rem;
+  }
+  .center {
+    flex-direction: column;
+  }
+  .city2 {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .fotoEuro {
+    height: 9.375rem;
+    background-image: url("assets/fotos/Europa2.svg");
+    background-size: cover;
+  }
+  .logo img {
+    width: 7.135rem;
+    height: 3.25rem;
+  }
+  .formtCity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .caracteristicas {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 0;
+    grid-template-columns: 1fr;
+  }
+  .descEuro {
+    padding: 0 2rem;
+    font-size: 0.875rem;
+  }
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .city2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+}

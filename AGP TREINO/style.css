@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background: #f5f8fa;
+  width: 100%;
+  height: 6.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  width: 100%;
+  height: 23.013rem;
+  background-image: url("assets/fotos/BGAzul.svg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.txtbg {
+  margin-left: 8.75rem;
+}
+
+.title {
+  color: #f5f8fa;
+  font-size: 2.25rem;
+  font-family: "Poppins", sans-serif;
+}
+.fmth1 {
+  color: #dadada;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 1.25rem;
+}
+.types {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  margin-top: 5.049rem;
+}
+.tipos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.txttipos {
+  color: #47585b;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.txtvamos {
+  display: flex;
+  margin-top: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.txtnessa {
+  color: #47585b;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  text-align: center;
+}
+.continentes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  margin-top: 3.25rem;
+  margin-bottom: 3.25rem;
+}
+.fotos {
+  width: 77.5rem;
+  height: 28.125rem;
+  background-image: url("assets/fotos/fotoEuropa.svg");
+}
+.txtEuropa {
+  color: #f5f8fa;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: bold;
+  height: 28.125rem;
+}
+.Euro1 {
+  font-size: 3rem;
+}
+.Euro2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.removeLink {
+  text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+  .types {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header {
+    height: 3.125rem;
+  }
+  .logo img {
+    width: 7.135rem;
+    height: 3.25rem;
+  }
+  .banner {
+    width: 100%;
+    height: 10.188rem;
+    background-image: url("assets/fotos/BGAzul.svg");
+  }
+  .txtbg {
+    margin-left: 1rem;
+  }
+  .title {
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+  .fmth1 {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  .types {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .fotos {
+    width: 100%;
+    height: 15.625rem;
+    background-image: url("assets/fotos/fotoEuropa.svg");
+  }
+  .txttipos {
+    font-size: 1.125rem;
+  }
+  .txtnessa {
+    font-size: 1.25rem;
+  }
+  .Euro1 {
+    font-size: 1.5rem;
+  }
+  .Euro2 {
+    font-size: 0.875rem;
+  }
+  .continentes {
+    margin-top: 0;
+  }
+  .txtEuropa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+  }
+}
